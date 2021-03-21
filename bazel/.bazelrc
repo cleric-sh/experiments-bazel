@@ -85,3 +85,8 @@ try-import %workspace%/.bazelrc.user
 
 run --incompatible_restrict_string_escapes=false
 build --incompatible_restrict_string_escapes=false
+
+build --verbose_failures
+run --verbose_failures
+build --sandbox_debug
+run --sandbox_debug
