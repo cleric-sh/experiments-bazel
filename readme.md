@@ -16,27 +16,33 @@ The repository focuses on DX. Goals that all implementations should achieve incl
 
 ## webpack // create-react-app
 
-Builds: yes
-Typescript Support: yes
-Incremental Rebuild: No
-Live Reloads: No
-HMR: No
-Stateful HMR: No
-
-Notes:
-HMR problems with bazel's `create-react-app` example are tracked here:
-https://github.com/bazelbuild/rules_nodejs/issues/2521
+| Feature | Support |
+|----|---|
+| Builds | Yes |
+| Preview in Browser | Yes |
+| Incremental Rebuild |  No |
+| Changes in Browser | No |
+| Live Reloads | No |
+| HMR | No |
+| HMR when editing shared lib | No |
+| Stateful HMR | No |
+| Stateful HMR when editing shared lib | No |
+ 
+>Notes:
+>
+>HMR problems with bazel's `create-react-app` example are tracked here:
+>https://github.com/bazelbuild/rules_nodejs/issues/2521
 
 
 ## vite // create-react-app
 
-Builds: No
-Typescript Support: yes
-Incremental Rebuild: No
-Live Reloads: No
-HMR: No
-Stateful HMR: No
+| Feature | Support |
+|----|---|
+| Builds | No |
+| Incremental Rebuild |  No |
+| Live Reloads | No |
+| HMR | No |
+| HMR when editing shared lib | No |
+| Stateful HMR | No |
+| Stateful HMR when editing shared lib | No |
 
-Notes:
-HMR problems with bazel's `create-react-app` example are tracked here:
-https://github.com/bazelbuild/rules_nodejs/issues/2521
